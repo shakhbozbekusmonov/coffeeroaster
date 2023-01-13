@@ -150,6 +150,7 @@ a{
 }
 
 .menu-btn{
+    display: none;
     border: none;
     outline: none;
     background-color: transparent;
@@ -211,6 +212,10 @@ a{
     
     .sitenav{
         display: none;
+    }
+
+    .menu-btn{
+        display: block;
     }
 }
 /******************* HEADER MOBILE STYLES END ******************/
