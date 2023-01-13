@@ -114,3 +114,33 @@ ul{
 a{
     text-decoration: none;
 }
+
+/****************** HEADER STYLES START *****************/
+.site-header{
+    padding-top: 43px;
+    padding-bottom: 43px;
+    background-color: var(--header-bg-color);
+}
+
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitenav__list{
+    display: flex;
+}
+
+.sitenav__item:not(:last-child){
+    margin-right: 33px;
+}
+
+.sitenav__link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+/****************** HEADER STYLES END *****************/
