@@ -332,6 +332,7 @@ a{
 .choose__wrapper{
     position: relative;
     width: 100%;
+    margin-bottom: 353px;
     padding-top: 100px;
     padding-bottom: 317px;
     text-align: center;
@@ -411,5 +412,73 @@ a{
     color: #FEFCF7;    
 }
 /******** CHOOSE STYLES END ********/
+
+/******** WORKS STYLES START ********/
+.works{
+    padding-bottom: 200px;
+}
+
+.works__title{
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.works__wrapper{
+    padding-top: 98px;
+    background-image: url("../images/works-img.png");
+    background-repeat: no-repeat;
+}
+
+.works__list{
+    margin-bottom: 64px;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works__item{
+    width: 100%;
+    max-width: 285px;
+}
+
+.works__number{
+    display: inline-block;
+    margin-bottom: 38px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.works__subtitle{
+    width: 100%;
+    max-width: 255px;
+    margin-top: 0;
+    margin-bottom: 42px;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.works__text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.works__btn{
+    display: inline-block;
+    padding: 15px 31px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 6px;
+    background-color: var(--main-btn-color);
+    color: #FEFCF7;
+}
+/******** WORKS STYLES END ********/
 /****************** MAIN STYLES END *****************/
 
