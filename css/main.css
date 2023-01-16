@@ -209,10 +209,64 @@ a{
     .sitenav{
         display: none;
     }
-
+    
     .menu-btn{
         display: block;
     }
 }
 /******************* HEADER MOBILE STYLES END ******************/
 /****************** HEADER STYLES END *****************/
+
+/****************** MAIN STYLES START *****************/
+.site-main{
+    background-color: var(--main-bg-color);
+}
+
+/******** HERO STYLES START ********/
+.hero__wrapper{
+    padding-top: 117px;
+    padding-bottom: 116px;
+    padding-left: 85px;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.hero__wrapper--start{
+    width: 100%;
+    max-width: 498px;
+    
+}
+
+.hero__start--title{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero__start--desc{
+    margin-top: 0;
+    margin-bottom: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.hero__start--btn{
+    display: inline-block;
+    padding: 15px 31px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    background-color: var(--main-btn-color);
+    border-radius: 6px;
+    color: #FEFCF7;
+}
+/******** HERO STYLES END ********/
+/****************** MAIN STYLES END *****************/
+
