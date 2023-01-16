@@ -482,3 +482,47 @@ a{
 /******** WORKS STYLES END ********/
 /****************** MAIN STYLES END *****************/
 
+/****************** FOOTER STYLES START *****************/
+.site-footer{
+    padding-bottom: 88px;
+}
+
+
+.site-footer__wrapper{
+    padding: 47px 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C343E;
+}
+
+.site-footer__logo{
+    color: #fff;
+}
+
+.site-footer__list{
+    display: flex;
+}
+
+.site-footer__item:not(:last-child){
+    margin-right: 33px;
+}
+
+.site-footer__link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+
+.social__list{
+    display: flex;
+    align-items: center;
+}
+
+.social__item:not(:last-child){
+    margin-right: 24px;
+}
+/****************** FOOTER STYLES END *****************/
+
