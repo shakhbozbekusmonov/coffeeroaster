@@ -116,6 +116,34 @@ a{
 }
 
 /****************** HEADER STYLES END *****************/
+.site-header{
+    padding-top: 43px;
+    padding-bottom: 43px;
+    background-color: var(--header-bg-color);
+}
+
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sitenav__list{
+    display: flex;
+}
+
+.sitenav__item:not(:last-child){
+    margin-right: 32px;
+}
+
+.sitenav__link{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
 
 .menu-btn{
     display: none;
@@ -187,179 +215,4 @@ a{
     }
 }
 /******************* HEADER MOBILE STYLES END ******************/
-
 /****************** HEADER STYLES END *****************/
-/************ SECTION CHOOSE START  ***************/
-
-.site-section__start{
-    background-color: var(--why-section-bg-color);
-    position: relative;
-}
-
-.site-section_choose__title{
-    padding-top: 100px;
-    padding-bottom: 32px;
-    text-align: center;
-    font-size: 40px;
-    line-height: 48px;
-    
-    text-align: center;
-    
-    color: #FEFCF7;
-    
-}
-
-.site-section_choose__desc{
-    margin: 0;
-    padding-right: 370px;
-    padding-bottom: 317px;
-    padding-left: 370px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FEFCF7;
-    opacity: 0.8;
-}
-
-
-.site-section__end{
-    display: flex;
-    margin-right: 85px;
-    margin-left: 85px;
-    position: absolute;
-    top: 520px;
-}
-
-.site-section__card__start{
-    
-    width: 350px;
-    height: 382px;
-    background-color: #0E8784;
-    border-radius: 8px;
-}
-.site-section__card__middle{
-    margin-left: 30px;
-    width: 350px;
-    height: 382px;
-    background-color: #0E8784;
-    border-radius: 8px;  
-}
-.site-section__card__start__end{
-    margin-left: 30px;
-    width: 350px;
-    height: 382px;
-    background-color: #0E8784;
-    border-radius: 8px;   
-}
-.site-section__card__img{
-    padding-top: 72px;
-    padding-right: 143px;
-    padding-bottom: 56px;
-    padding-left: 136px;
-}
-.site-section__card__title{
-    margin: 0;
-    padding-right: 48px;
-    padding-bottom: 24px;
-    padding-left: 47px;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    color: #FEFCF7;
-}
-.site-section__card__desc{
-    margin: 0;
-    padding-right: 48px;
-    padding-bottom: 48px;
-    padding-left: 47px;
-    
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FEFCF7;
-    
-    
-}
-
-/************ SECTION CHOOSE END  ***************/
-/****************** WORKS STYLES START *****************/
-
-.works-section__title{
-    top: calc(50% - 32px/2 - 266.5px);
-    font-family: 'Fraunces 9pt';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 32px;
-    color: #83888F;
-}
-
-.works-section__list{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.works-section__item-text{
-    font-family: 'Fraunces 9pt';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 72px;
-    color: #FDD6BA;
-    margin-top: 0;
-    margin-bottom: 38px;
-
-.site-header__logo--img{
-    width: 236px;
-    height: 26px;
-}
-
-.sitenav__list{
-    display: flex;
-}
-
-.works-section__item-title{
-    font-family: 'Fraunces 9pt';
-    font-style: normal;
-    width: 205px;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 36px;
-    color: #333D4B;
-    margin-top: 0;
-    margin-bottom: 42px;
-}
-
-.works-section__item-textt{
-    font-family: 'Barlow';
-    font-style: normal;
-    width: 285px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #333D4B;
-    margin-top: 0;
-    margin-bottom: 64px;
-}
-
-.works-section__btn{
-    font-family: 'Fraunces 9pt';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #FEFCF7;
-    padding: 15px 31px;
-    background: #0E8784;
-    border-radius: 6px;
-}
-
-/****************** WORKS STYLES END *****************/
-
