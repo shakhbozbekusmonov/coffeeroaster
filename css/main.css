@@ -327,5 +327,89 @@ a{
     color: #333D4B;
 }
 /******** OUR COLLECTION STYLES END ********/
+
+/******** CHOOSE STYLES START ********/
+.choose__wrapper{
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 317px;
+    text-align: center;
+    background-color: var(--why-section-bg-color);
+    border-radius: 10px;
+}
+
+.choose__title{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.choose__desc{
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.choose__list{
+    position: absolute;
+    top: 346px;
+    left: 85px;
+    width: calc(100% - 170px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose__item{
+    width: 100%;
+    max-width: 350px;
+    padding-top: 72px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    background-color: var(--main-btn-color);
+    border-radius: 8px;
+}
+
+.choose__subtitle{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+}
+
+.choose__subtitle::before{
+    display: block;
+    height: 72px;
+    margin-bottom: 56px;
+    content: url("../images/coffee.svg");
+}
+
+.choose__item:nth-child(2) .choose__subtitle::before{
+    content: url("../images/box.svg");
+}
+
+.choose__item:nth-child(3) .choose__subtitle::before{
+    content: url("../images/delivery.svg");
+}
+
+.choose__text{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;    
+}
+/******** CHOOSE STYLES END ********/
 /****************** MAIN STYLES END *****************/
 
