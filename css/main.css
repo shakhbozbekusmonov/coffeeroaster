@@ -64,3 +64,59 @@ a {
 	text-decoration: none;
 	background-color: transparent;
 }
+
+/* HEADER START */
+.site-header {
+	padding-top: 32px;
+	padding-bottom: 40px;
+}
+
+.site-header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.site-header__menu-btn {
+	background-color: transparent;
+	border: none;
+}
+
+/* HIDDEN HEADER START */
+.hidden-header {
+	position: fixed;
+	top: 90px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	background: linear-gradient(180deg,  #fefcf7 30%, #fefcf780 100%);
+
+	transform: translateY(-150%);
+	transition: all 0.3s ease-in-out;
+}
+
+.hidden-header__wrapper {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.hidden-header__list {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	text-align: center;
+}
+
+.hidden-header__link {
+	font-size: 24px;
+	line-height: 133%;
+	color: var(--color-dark-grey-blue);
+}
+
+.hidden-header-show {
+	transform: translateY(0);
+}
+/* HIDDEN HEADER END */
+/* HEADER END */
