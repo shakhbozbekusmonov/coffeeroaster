@@ -140,12 +140,12 @@ a {
 /* HIDDEN HEADER END */
 
 @media only screen and (min-width: 768px) {
-	.site-header{
+	.site-header {
 		padding-top: 40px;
 		padding-bottom: 53px;
 	}
 
-	.site-header__logo-img{
+	.site-header__logo-img {
 		width: 236px;
 		height: 26px;
 	}
@@ -156,6 +156,22 @@ a {
 
 	.site-header__menu-btn {
 		display: none;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.site-header {
+		padding-top: 43px;
+		padding-bottom: 45px;
+	}
+
+	.site-header__logo-img {
+		width: 234px;
+		height: 24px;
+	}
+
+	.site-header__nav-link:hover {
+		color: var(--color-dark-grey-blue);
 	}
 }
 /* HEADER END */
