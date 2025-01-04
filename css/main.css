@@ -1,0 +1,66 @@
+/* FONT */
+@font-face {
+	font-display: swap;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/fraunces-v31-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/fraunces-v31-latin-900.woff2') format('woff2');
+}
+
+/* CUSTOM PROPERTY */
+:root {
+	--color-dark-cyan: #0e8784;
+	--color-dark-grey-blue: #333d4b;
+	--color-pale-orange: #fdd6ba;
+	--color-light-cream: #fefcf7;
+	--color-grey: #83888f;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-family: 'Fraunces', sans-serif;
+	font-weight: 900;
+	background-color: var(--color-light-cream);
+}
+
+main {
+	flex-grow: 1;
+}
+
+.container {
+	width: 100%;
+	max-width: 1310px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	background-color: transparent;
+}
