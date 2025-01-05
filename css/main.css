@@ -493,7 +493,6 @@ a {
 	text-align: center;
 }
 
-
 .why-choose__item-title {
 	margin-bottom: 24px;
 	font-size: 24px;
@@ -542,6 +541,45 @@ a {
 
 	.why-choose__item-content {
 		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.why-choose {
+		padding-bottom: 355px;
+	}
+
+	.why-choose__wrapper {
+		padding: 100px 85px;
+	}
+
+	.why-choose__content {
+		max-width: 540px;
+	}
+
+	.why-choose__title {
+		font-size: 40px;
+		line-height: 120%;
+		margin-bottom: 32px;
+	}
+
+	.why-choose__desc {
+		font-size: 16px;
+		line-height: 162%;
+		margin-bottom: 86px;
+	}
+
+	.why-choose__list{
+		flex-direction: row;
+		gap: 30px;
+	}
+
+	.why-choose__item{
+		flex-direction: column;
+	}
+
+	.why-choose__item-content{
+		text-align: center;
 	}
 }
 /* WHY CHOOSE END */
