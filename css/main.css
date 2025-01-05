@@ -262,6 +262,10 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
+	.hero {
+		padding-bottom: 144px;
+	}
+
 	.hero__wrapper {
 		padding: 104px 58px;
 		background-image: url('../images/hero-tablet-bg.jpg');
@@ -330,7 +334,7 @@ a {
 	gap: 48px;
 }
 
-.our-collection__item {
+.our-collection__item-content{
 	text-align: center;
 }
 
@@ -351,6 +355,35 @@ a {
 	font-size: 15px;
 	line-height: 167%;
 	color: var(--color-dark-grey-blue);
+}
+
+@media only screen and (min-width: 768px) {
+	.our-collection {
+		padding-bottom: 144px;
+	}
+
+	.our-collection__title {
+		font-size: 96px;
+		line-height: 75%;
+	}
+
+	.our-collection__list{
+		gap: 32px;
+	}
+
+	.our-collection__item{
+		display: flex;
+		align-items: center;
+	}
+
+	.our-collection__item-img{
+		width: 255px;
+		height: 193px;
+	}
+
+	.our-collection__item-content{
+		text-align: left;
+	}
 }
 /* OUR COLLECTION END */
 /*----------------- MAIN END -----------------*/
