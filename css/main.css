@@ -15,6 +15,38 @@
 	src: url('../fonts/fraunces-v31-latin-900.woff2') format('woff2');
 }
 
+@font-face {
+	font-display: swap;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/barlow-v12-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/barlow-v12-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2');
+}
+
 /* CUSTOM PROPERTY */
 :root {
 	--color-dark-cyan: #0e8784;
@@ -22,6 +54,8 @@
 	--color-pale-orange: #fdd6ba;
 	--color-light-cream: #fefcf7;
 	--color-grey: #83888f;
+
+	--second-family: 'Barlow', sans-serif;
 }
 
 * {
@@ -175,3 +209,55 @@ a {
 	}
 }
 /* HEADER END */
+
+/*----------------- MAIN START -----------------*/
+.site-main {
+}
+
+/* HERO START */
+.hero {
+	width: 100%;
+}
+
+.hero__wrapper {
+	padding: 100px 24px;
+	background-image: url('../images/hero-mobile-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 10px;
+}
+
+.hero__content {
+	text-align: center;
+}
+
+.hero__title {
+	margin-bottom: 24px;
+	font-size: 40px;
+	line-height: 100%;
+	color: var(--color-light-cream);
+}
+
+.hero__desc {
+	margin-bottom: 39px;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 167%;
+	color: var(--color-light-cream);
+	opacity: 0.8;
+}
+
+.hero__btn {
+	display: inline-block;
+	padding: 15px 31px;
+	border-radius: 6px;
+	background-color: var(--color-dark-cyan);
+
+	font-size: 18px;
+	line-height: 139%;
+	color: var(--color-light-cream);
+}
+/* HERO END */
+/*----------------- MAIN END -----------------*/
