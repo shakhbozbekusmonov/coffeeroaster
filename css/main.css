@@ -338,7 +338,7 @@ a {
 	gap: 48px;
 }
 
-.our-collection__item{
+.our-collection__item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -397,6 +397,7 @@ a {
 
 @media only screen and (min-width: 1024px) {
 	.our-collection {
+		padding-bottom: 600px;
 		position: relative;
 	}
 
@@ -406,7 +407,7 @@ a {
 		opacity: 0.5;
 	}
 
-	.our-collection__list{
+	.our-collection__list {
 		position: absolute;
 		top: 22%;
 		right: 0;
@@ -417,21 +418,91 @@ a {
 		margin: 0 auto;
 	}
 
-	.our-collection__item{
+	.our-collection__item {
 		flex-direction: column;
 	}
 
-	.our-collection__item-content{
+	.our-collection__item-content {
 		text-align: center;
 	}
 
-	.our-collection__item-img{
+	.our-collection__item-img {
 		margin-bottom: 71px;
 	}
 
-	.our-collection__item-title{
+	.our-collection__item-title {
 		margin-bottom: 24px;
 	}
 }
 /* OUR COLLECTION END */
+
+/* WHY CHOOSE START */
+.why-choose {
+	padding-bottom: 120px;
+}
+
+.why-choose__wrapper {
+	height: 100%;
+	max-height: 902px;
+	padding: 65px 24px;
+	background-color: var(--color-dark-grey-blue);
+	border-radius: 10px;
+}
+
+.why-choose__content {
+	text-align: center;
+}
+
+.why-choose__title {
+	margin-bottom: 24px;
+	font-size: 28px;
+	line-height: 100%;
+	color: var(--color-light-cream);
+}
+
+.why-choose__desc {
+	margin-bottom: 64px;
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 167%;
+	color: var(--color-light-cream);
+	opacity: 0.8;
+}
+
+.why-choose__list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.why-choose__item {
+	width: 100%;
+	height: 100%;
+	min-height: 382px;
+	text-align: center;
+	padding: 72px 12px 51px;
+	background-color: var(--color-dark-cyan);
+	border-radius: 8px;
+}
+
+.why-choose__item-img {
+	margin-bottom: 56px;
+}
+
+.why-choose__item-title {
+	margin-bottom: 24px;
+	font-size: 24px;
+	line-height: 133%;
+	color: var(--color-light-cream);
+}
+
+.why-choose__item-text {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 167%;
+	color: var(--color-light-cream);
+}
+/* WHY CHOOSE END */
 /*----------------- MAIN END -----------------*/
