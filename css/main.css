@@ -283,6 +283,10 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+	.hero {
+		padding-bottom: 136px;
+	}
+
 	.hero__wrapper {
 		padding: 117px 85px;
 		background-image: url('../images/hero-desktop-bg.jpg');
@@ -334,7 +338,13 @@ a {
 	gap: 48px;
 }
 
-.our-collection__item-content{
+.our-collection__item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.our-collection__item-content {
 	text-align: center;
 }
 
@@ -367,22 +377,60 @@ a {
 		line-height: 75%;
 	}
 
-	.our-collection__list{
+	.our-collection__list {
 		gap: 32px;
 	}
 
-	.our-collection__item{
-		display: flex;
-		align-items: center;
+	.our-collection__item {
+		flex-direction: row;
 	}
 
-	.our-collection__item-img{
+	.our-collection__item-img {
 		width: 255px;
 		height: 193px;
 	}
 
-	.our-collection__item-content{
+	.our-collection__item-content {
 		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.our-collection {
+		position: relative;
+	}
+
+	.our-collection__title {
+		font-size: 150px;
+		line-height: 80%;
+		opacity: 0.5;
+	}
+
+	.our-collection__list{
+		position: absolute;
+		top: 22%;
+		right: 0;
+		left: 0;
+		width: 100%;
+		max-width: 1111px;
+		flex-direction: row;
+		margin: 0 auto;
+	}
+
+	.our-collection__item{
+		flex-direction: column;
+	}
+
+	.our-collection__item-content{
+		text-align: center;
+	}
+
+	.our-collection__item-img{
+		margin-bottom: 71px;
+	}
+
+	.our-collection__item-title{
+		margin-bottom: 24px;
 	}
 }
 /* OUR COLLECTION END */
