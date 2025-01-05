@@ -54,6 +54,7 @@
 	--color-pale-orange: #fdd6ba;
 	--color-light-cream: #fefcf7;
 	--color-grey: #83888f;
+	--color-hover: #66d2cf;
 
 	--second-family: 'Barlow', sans-serif;
 }
@@ -260,20 +261,45 @@ a {
 	color: var(--color-light-cream);
 }
 
-@media only screen and (min-width: 768px){
-	.hero__wrapper{
+@media only screen and (min-width: 768px) {
+	.hero__wrapper {
 		padding: 104px 58px;
 		background-image: url('../images/hero-tablet-bg.jpg');
 	}
 
-	.hero__content{
+	.hero__content {
 		width: 100%;
 		max-width: 398px;
 		text-align: left;
 	}
 
-	.hero__title{
+	.hero__title {
 		font-size: 48px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.hero__wrapper {
+		padding: 117px 85px;
+		background-image: url('../images/hero-desktop-bg.jpg');
+	}
+
+	.hero__content {
+		max-width: 493px;
+	}
+
+	.hero__title {
+		margin-bottom: 32px;
+		font-size: 72px;
+	}
+
+	.hero__desc {
+		margin-bottom: 56px;
+		font-size: 16px;
+	}
+
+	.hero__btn:hover {
+		background-color: var(--color-hover);
 	}
 }
 /* HERO END */
