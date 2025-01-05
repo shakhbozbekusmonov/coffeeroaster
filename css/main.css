@@ -240,7 +240,7 @@ a {
 }
 
 .hero__desc {
-	margin-bottom: 39px;
+	margin-bottom: 40px;
 	font-family: var(--second-family);
 	font-weight: 400;
 	font-size: 15px;
@@ -258,6 +258,23 @@ a {
 	font-size: 18px;
 	line-height: 139%;
 	color: var(--color-light-cream);
+}
+
+@media only screen and (min-width: 768px){
+	.hero__wrapper{
+		padding: 104px 58px;
+		background-image: url('../images/hero-tablet-bg.jpg');
+	}
+
+	.hero__content{
+		width: 100%;
+		max-width: 398px;
+		text-align: left;
+	}
+
+	.hero__title{
+		font-size: 48px;
+	}
 }
 /* HERO END */
 /*----------------- MAIN END -----------------*/
